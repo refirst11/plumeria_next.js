@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
+import "@plumeria/core/stylesheet";
+import { ServerCSS } from "@plumeria/next";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -24,6 +26,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <ServerCSS />
+      </head>
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
         {children}
       </body>

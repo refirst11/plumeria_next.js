@@ -1,5 +1,30 @@
 import Image from "next/image";
 import styles from "./page.module.css";
+import { css } from "@plumeria/core";
+
+const plumeria = css.create({
+  box: {
+    color: "#6a6a90",
+    fontSize: 24,
+    fontWeight: "bold",
+    textAlign: "center",
+
+    "&::before": {
+      content: "''",
+      display: "block",
+      width: 100,
+      height: 100,
+      backgroundColor: "red",
+    },
+    "&::after": {
+      content: "''",
+      display: "block",
+      width: 100,
+      height: 100,
+      backgroundColor: "green",
+    },
+  },
+});
 
 export default function Home() {
   return (
@@ -19,6 +44,7 @@ export default function Home() {
           </li>
           <li>Save and see your changes instantly.</li>
         </ol>
+        <div className={plumeria.box}>App router</div>
 
         <div className={styles.ctas}>
           <a
