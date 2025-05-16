@@ -4,23 +4,22 @@ import { css } from "@plumeria/core";
 
 const plumeria = css.create({
   box: {
-    color: "#6a6a90",
     fontSize: 24,
     fontWeight: "bold",
+    color: "#6a6a90",
     textAlign: "center",
-
     "&::before": {
-      content: "''",
       display: "block",
       width: 100,
       height: 100,
+      content: "''",
       backgroundColor: "red",
     },
     "&::after": {
-      content: "''",
       display: "block",
       width: 100,
       height: 100,
+      content: "''",
       backgroundColor: "green",
     },
   },
