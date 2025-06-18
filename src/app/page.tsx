@@ -43,7 +43,7 @@ export default function Home() {
           </li>
           <li>Save and see your changes instantly.</li>
         </ol>
-        <div className={plumeria.box}>App router</div>
+        <div className={css.props(plumeria.box)}>App router</div>
 
         <div className={styles.ctas}>
           <a
