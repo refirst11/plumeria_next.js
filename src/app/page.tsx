@@ -4,7 +4,7 @@ import { css } from "@plumeria/core";
 
 const plumeria = css.create({
   box: {
-    fontSize: 24,
+    fontSize: 30,
     fontWeight: "bold",
     color: "#6a6a90",
     textAlign: "center",
@@ -21,6 +21,15 @@ const plumeria = css.create({
       height: 100,
       content: "''",
       backgroundColor: "green",
+    },
+  },
+  site: {
+    "&::before": {
+      display: "block",
+      width: 100,
+      height: 100,
+      content: "''",
+      backgroundColor: "#60ccb5",
     },
   },
 });
@@ -43,7 +52,7 @@ export default function Home() {
           </li>
           <li>Save and see your changes instantly.</li>
         </ol>
-        <div className={css.props(plumeria.box)}>App router</div>
+        <div className={css.props(plumeria.box, plumeria.site)}>StyleNext</div>
 
         <div className={styles.ctas}>
           <a
