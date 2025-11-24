@@ -1,6 +1,8 @@
 import type { NextConfig } from "next";
 import { withPlumeria } from "@plumeria/next-plugin";
 
-const nextConfig: NextConfig = withPlumeria({});
+const nextConfig: NextConfig = {
+  turbopack: {},
+};
 
-export default nextConfig;
+export default withPlumeria(nextConfig);
