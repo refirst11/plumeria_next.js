@@ -14,7 +14,7 @@
     "react-dom": "^19.0.0"
   },
   "devDependencies": {
-    "@eslint/eslintrc": "^3",
+    "@eslint/js": "^9.39.1",
     "@plumeria/compiler": "^0.26.0",
     "@plumeria/core": "^0.26.0",
     "@plumeria/eslint-plugin": "^0.26.0",
@@ -22,8 +22,10 @@
     "@types/node": "^22.15.16",
     "@types/react": "^19",
     "@types/react-dom": "^19",
-    "eslint": "^9",
+    "eslint": "^9.39.1",
     "eslint-config-next": "15.3.2",
-    "typescript": "^5"
+    "jiti": "^2.6.1",
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.47.0"
   }
 }
