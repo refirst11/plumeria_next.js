@@ -3,24 +3,24 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "css & next dev --webpack",
+    "dev": "css & next dev",
     "build": "css && next build",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
-    "next": "^16.0.3",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "next": "^16.0.7",
+    "react": "^19.2.1",
+    "react-dom": "^19.2.1"
   },
   "devDependencies": {
     "@eslint/js": "^9.39.1",
-    "@plumeria/compiler": "^0.26.0",
-    "@plumeria/core": "^0.26.0",
-    "@plumeria/eslint-plugin": "^0.26.0",
-    "@plumeria/next-plugin": "^0.26.0",
+    "@plumeria/compiler": "^1.0.3",
+    "@plumeria/core": "^1.0.3",
+    "@plumeria/eslint-plugin": "^1.0.3",
+    "@plumeria/next-plugin": "^1.0.3",
     "@types/node": "^22.15.16",
-    "@types/react": "^19",
+    "@types/react": "^19.2.7",
     "@types/react-dom": "^19",
     "eslint": "^9.39.1",
     "eslint-config-next": "15.3.2",
