@@ -3,22 +3,21 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "css & next dev",
-    "build": "css && next build",
-    "start": "next start",
-    "lint": "next lint"
+    "dev": "next dev",
+    "build": "plumerialint & next build",
+    "start": "next start"
   },
   "dependencies": {
-    "next": "^16.0.7",
-    "react": "^19.2.1",
-    "react-dom": "^19.2.1"
+    "next": "^16.1.1",
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3"
   },
   "devDependencies": {
     "@eslint/js": "^9.39.1",
-    "@plumeria/compiler": "^2.0.0",
-    "@plumeria/core": "^2.0.0",
-    "@plumeria/eslint-plugin": "^2.0.0",
-    "@plumeria/next-plugin": "^2.0.0",
+    "@plumeria/core": "^4.0.5",
+    "@plumeria/next-plugin": "^4.0.5",
+    "@plumeria/postcss-plugin": "^4.0.5",
+    "@plumeria/eslint-plugin": "^4.0.5",
     "@types/node": "^22.15.16",
     "@types/react": "^19.2.7",
     "@types/react-dom": "^19",
