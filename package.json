@@ -3,6 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "predev": "rimraf .next",
+    "prebuild": "rimraf .next",
     "dev": "next dev",
     "build": "plumerialint & next build",
     "start": "next start"
@@ -14,16 +16,17 @@
   },
   "devDependencies": {
     "@eslint/js": "^9.39.1",
-    "@plumeria/core": "^4.0.5",
-    "@plumeria/next-plugin": "^4.0.5",
-    "@plumeria/postcss-plugin": "^4.0.5",
-    "@plumeria/eslint-plugin": "^4.0.5",
+    "@plumeria/core": "^4.1.0",
+    "@plumeria/eslint-plugin": "^4.1.0",
+    "@plumeria/next-plugin": "^4.1.0",
+    "@plumeria/postcss-plugin": "^4.1.0",
     "@types/node": "^22.15.16",
     "@types/react": "^19.2.7",
     "@types/react-dom": "^19",
     "eslint": "^9.39.1",
     "eslint-config-next": "15.3.2",
     "jiti": "^2.6.1",
+    "rimraf": "^6.1.2",
     "typescript": "^5.9.3",
     "typescript-eslint": "^8.47.0"
   }
