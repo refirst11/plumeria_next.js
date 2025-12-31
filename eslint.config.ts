@@ -5,9 +5,12 @@ import { plumeria } from "@plumeria/eslint-plugin";
 
 export default defineConfig(
   eslint.configs.recommended,
-  ...tseslint.configs.strict,
+  tseslint.configs.strict,
   plumeria.flatConfigs.recommended,
   {
     files: ["**/*.{ts,tsx}"],
+  },
+  {
+    ignores: ["**/.*/**"],
   }
 );
