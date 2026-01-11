@@ -1,6 +1,6 @@
 import Image from "next/image";
 import styles from "./page.module.css";
-import { css } from "@plumeria/core";
+import * as css from "@plumeria/core";
 
 const plumeria = css.create({
   box: {
@@ -8,14 +8,14 @@ const plumeria = css.create({
     fontWeight: "bold",
     color: "#6a6a90",
     textAlign: "center",
-    "&::before": {
+    "::before": {
       display: "block",
       width: 100,
       height: 100,
       content: "''",
       backgroundColor: "red",
     },
-    "&::after": {
+    "::after": {
       display: "block",
       width: 100,
       height: 100,
@@ -24,7 +24,7 @@ const plumeria = css.create({
     },
   },
   site: {
-    "&::before": {
+    "::before": {
       display: "block",
       width: 100,
       height: 100,
@@ -35,6 +35,7 @@ const plumeria = css.create({
 });
 
 export default function Home() {
+  console.log(plumeria);
   return (
     <div className={styles.page}>
       <main className={styles.main}>
