@@ -9,8 +9,11 @@ export default defineConfig(
   plumeria.flatConfigs.recommended,
   {
     files: ["**/*.{ts,tsx}"],
+    languageOptions: {
+      parserOptions: { projectService: true },
+    },
   },
   {
     ignores: ["**/.*/**"],
-  }
+  },
 );
