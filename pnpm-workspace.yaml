@@ -1,4 +1,7 @@
 packages:
   - "."
-onlyBuiltDependencies:
   - "@swc/core"
+allowBuilds:
+  "@swc/core": true
+  sharp: true
+  unrs-resolver: true
