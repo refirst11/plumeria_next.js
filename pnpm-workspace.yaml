@@ -1,6 +1,9 @@
+minimumReleaseAge: 0
+
 packages:
   - "."
   - "@swc/core"
+
 allowBuilds:
   "@swc/core": true
   sharp: true
