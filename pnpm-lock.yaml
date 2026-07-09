@@ -22,17 +22,17 @@ importers:
         specifier: ^9.39.1
         version: 9.39.2
       '@plumeria/core':
-        specifier: ^15.1.0
-        version: 15.1.0
+        specifier: ^15.1.1
+        version: 15.1.1
       '@plumeria/eslint-plugin':
-        specifier: ^15.1.0
-        version: 15.1.0(eslint@9.39.2)(typescript@5.9.3)
+        specifier: ^15.1.1
+        version: 15.1.1(eslint@9.39.2)(typescript@5.9.3)
       '@plumeria/next-plugin':
-        specifier: ^15.1.0
-        version: 15.1.0
+        specifier: ^15.1.1
+        version: 15.1.1
       '@plumeria/postcss-plugin':
-        specifier: ^15.1.0
-        version: 15.1.0
+        specifier: ^15.1.1
+        version: 15.1.1
       '@types/node':
         specifier: ^22.15.16
         version: 22.19.3
@@ -414,27 +414,30 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@plumeria/compiler@15.1.0':
-    resolution: {integrity: sha512-NCZLQycQjKkZkex7ENwJq42XhjKNTVoiBDCATbObXScr3cPIm5FqbhNoEcAI1FP3cpaaO2szZL6fJAd2lfugpQ==}
+  '@plumeria/compiler@15.1.1':
+    resolution: {integrity: sha512-gpWrJnJPBjngNPuL2FMg9DStVq761vH5yxoOfpBdfK18LWLh3r1sxXB1PhaJsdIGPZyDDbRsOmLO/pgXxnkjcA==}
 
-  '@plumeria/core@15.1.0':
-    resolution: {integrity: sha512-aW8YrQB2HlMt4SpTt/z8Tc2xFp4uIjkAhZf0lJC49zB0xRBRC+HWbdKjK8mpuljmKkW0WS+As40uOCuPeRNWHQ==}
+  '@plumeria/core@15.1.1':
+    resolution: {integrity: sha512-/sMiNpSz1g/n4rlRmP7tudlSCHE4vanKey40qXb78Eikpj8OuJ0A3JHZp8HQ9CL1MqG8ae+oOpPA2w5mxX5qKQ==}
 
-  '@plumeria/eslint-plugin@15.1.0':
-    resolution: {integrity: sha512-+0aozoqaqAZJdCmczRL3NIT9n765aBHgcgKRKVp6mW7VErzmTJyUBBGilP25v0itSO9h9gcrGNY7eAvXzkLNJQ==}
+  '@plumeria/eslint-plugin@15.1.1':
+    resolution: {integrity: sha512-p06q9SWCwKfmHAeXgQugRKMtZ5z7Qvcp7peu7sYXPYw7Nqrn0s7R7VZqbPnqkd0oVsY7r0gXxZgy6zmFmYjUog==}
     hasBin: true
 
-  '@plumeria/next-plugin@15.1.0':
-    resolution: {integrity: sha512-Bpo2qpseDpFJ4k8nSacWsQXoRLtL4udh9EhAAGX4rd4sb+d5pcguW92AyqgiW7nl25LT10IrrzdWM9XmVIzCgA==}
+  '@plumeria/next-plugin@15.1.1':
+    resolution: {integrity: sha512-lzpdpWvGU2YZvbXS0QwLiSJelWWf6DIi0p3Q9oBIzll+V/PtmH+9Qbnw5C68m3vWbqmVxJghaqGb+5LJlHGhZw==}
 
-  '@plumeria/postcss-plugin@15.1.0':
-    resolution: {integrity: sha512-eeuxEHb967Ywa54/8eu7oUthZld4cD+IIfzZN/4qxZwTjU3S26cHwA8qW3CObvoZ5ENVbgHYyuiNrLEY7fE/CQ==}
+  '@plumeria/postcss-plugin@15.1.1':
+    resolution: {integrity: sha512-B0xUSssvn+0sqiKanPMd4XiY5pIPu5+KCZLBjQ5E5LOqElaACi9vSRzf+hlyU3qRwp7tBF9udcvPS3+RD1/PwA==}
 
   '@plumeria/turbopack-loader@15.1.0':
     resolution: {integrity: sha512-2PnpdUTp57yLeKclhtZogRFhOg7X4pzMjW/Ct+dWmTtvwQMKVH5FNtkjCIJUT+fK6Emovu5SrrXJ4azngT7heQ==}
 
   '@plumeria/utils@15.1.0':
     resolution: {integrity: sha512-/LgRpAVZ/ZEWntxj9EkqNPzezUC2zQU8JlzwmryDMoFSfJP/u49xZcGiQgiwZTPBRBWBomCIpuFHel13gFCjyA==}
+
+  '@plumeria/utils@15.1.1':
+    resolution: {integrity: sha512-ESiGCn94JKk4UoLEZNgipYqIIzE9LRcTxhN1zWatGndeZi5HKaESzGd7UmFuYeHCSlrsk5VO1nZm5aaLRWLCUg==}
 
   '@rtsao/scc@1.1.0':
     resolution: {integrity: sha512-zt6OdqaDoOnJ1ZYsCYGt9YmWzDXl4vQdKTyJev62gFhRGKdx7mcT54V9KIjg+d2wi9EXsPvAPKe7i7WjfVWB8g==}
@@ -2312,15 +2315,15 @@ snapshots:
   '@oxlint/win32-x64@1.34.0':
     optional: true
 
-  '@plumeria/compiler@15.1.0':
+  '@plumeria/compiler@15.1.1':
     dependencies:
-      '@plumeria/utils': 15.1.0
+      '@plumeria/utils': 15.1.1
     transitivePeerDependencies:
       - '@swc/helpers'
 
-  '@plumeria/core@15.1.0': {}
+  '@plumeria/core@15.1.1': {}
 
-  '@plumeria/eslint-plugin@15.1.0(eslint@9.39.2)(typescript@5.9.3)':
+  '@plumeria/eslint-plugin@15.1.1(eslint@9.39.2)(typescript@5.9.3)':
     dependencies:
       '@typescript-eslint/utils': 8.60.0(eslint@9.39.2)(typescript@5.9.3)
       known-css-properties: 0.37.0
@@ -2329,15 +2332,15 @@ snapshots:
       - supports-color
       - typescript
 
-  '@plumeria/next-plugin@15.1.0':
+  '@plumeria/next-plugin@15.1.1':
     dependencies:
       '@plumeria/turbopack-loader': 15.1.0
     transitivePeerDependencies:
       - '@swc/helpers'
 
-  '@plumeria/postcss-plugin@15.1.0':
+  '@plumeria/postcss-plugin@15.1.1':
     dependencies:
-      '@plumeria/compiler': 15.1.0
+      '@plumeria/compiler': 15.1.1
       postcss: 8.5.15
     transitivePeerDependencies:
       - '@swc/helpers'
@@ -2349,6 +2352,17 @@ snapshots:
       - '@swc/helpers'
 
   '@plumeria/utils@15.1.0':
+    dependencies:
+      '@rust-gear/glob': 1.0.0
+      '@swc/core': 1.15.41
+      lightningcss: 1.32.0
+      postcss: 8.5.15
+      postcss-combine-media-query: 2.1.0(postcss@8.5.15)
+      zss-engine: 2.3.0
+    transitivePeerDependencies:
+      - '@swc/helpers'
+
+  '@plumeria/utils@15.1.1':
     dependencies:
       '@rust-gear/glob': 1.0.0
       '@swc/core': 1.15.41
@@ -3029,7 +3043,7 @@ snapshots:
       eslint: 9.39.2
       eslint-import-resolver-node: 0.3.9
       eslint-import-resolver-typescript: 3.10.1(eslint-plugin-import@2.32.0(@typescript-eslint/parser@8.51.0(eslint@9.39.2)(typescript@5.9.3))(eslint@9.39.2))(eslint@9.39.2)
-      eslint-plugin-import: 2.32.0(@typescript-eslint/parser@8.51.0(eslint@9.39.2)(typescript@5.9.3))(eslint-import-resolver-typescript@3.10.1)(eslint@9.39.2)
+      eslint-plugin-import: 2.32.0(@typescript-eslint/parser@8.51.0(eslint@9.39.2)(typescript@5.9.3))(eslint-import-resolver-typescript@3.10.1(eslint-plugin-import@2.32.0(@typescript-eslint/parser@8.51.0(eslint@9.39.2)(typescript@5.9.3))(eslint@9.39.2))(eslint@9.39.2))(eslint@9.39.2)
       eslint-plugin-jsx-a11y: 6.10.2(eslint@9.39.2)
       eslint-plugin-react: 7.37.5(eslint@9.39.2)
       eslint-plugin-react-hooks: 5.2.0(eslint@9.39.2)
@@ -3059,7 +3073,7 @@ snapshots:
       tinyglobby: 0.2.15
       unrs-resolver: 1.11.1
     optionalDependencies:
-      eslint-plugin-import: 2.32.0(@typescript-eslint/parser@8.51.0(eslint@9.39.2)(typescript@5.9.3))(eslint-import-resolver-typescript@3.10.1)(eslint@9.39.2)
+      eslint-plugin-import: 2.32.0(@typescript-eslint/parser@8.51.0(eslint@9.39.2)(typescript@5.9.3))(eslint-import-resolver-typescript@3.10.1(eslint-plugin-import@2.32.0(@typescript-eslint/parser@8.51.0(eslint@9.39.2)(typescript@5.9.3))(eslint@9.39.2))(eslint@9.39.2))(eslint@9.39.2)
     transitivePeerDependencies:
       - supports-color
 
@@ -3074,7 +3088,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  eslint-plugin-import@2.32.0(@typescript-eslint/parser@8.51.0(eslint@9.39.2)(typescript@5.9.3))(eslint-import-resolver-typescript@3.10.1)(eslint@9.39.2):
+  eslint-plugin-import@2.32.0(@typescript-eslint/parser@8.51.0(eslint@9.39.2)(typescript@5.9.3))(eslint-import-resolver-typescript@3.10.1(eslint-plugin-import@2.32.0(@typescript-eslint/parser@8.51.0(eslint@9.39.2)(typescript@5.9.3))(eslint@9.39.2))(eslint@9.39.2))(eslint@9.39.2):
     dependencies:
       '@rtsao/scc': 1.1.0
       array-includes: 3.1.9
