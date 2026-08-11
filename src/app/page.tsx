@@ -52,7 +52,7 @@ export default function Home() {
           </li>
           <li>Save and see your changes instantly.</li>
         </ol>
-        <div styleName={[plumeria.box, plumeria.site]}>StyleNext</div>
+        <div classStyle={[plumeria.box, plumeria.site]}>StyleNext</div>
 
         <div className={styles.ctas}>
           <a
