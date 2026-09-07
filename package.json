@@ -10,15 +10,15 @@
     "start": "next start"
   },
   "dependencies": {
-    "next": "^16.2.6",
+    "next": "^16.3.4",
     "react": "^19.2.6",
     "react-dom": "^19.2.6"
   },
   "devDependencies": {
     "@eslint/js": "^9.39.1",
-    "@plumeria/core": "^18.3.10",
-    "@plumeria/eslint-plugin": "^18.3.10",
-    "@plumeria/next-plugin": "^18.3.10",
+    "@plumeria/core": "^18.5.1",
+    "@plumeria/eslint-plugin": "^18.5.1",
+    "@plumeria/next-plugin": "^18.5.1",
     "@types/node": "^22.15.16",
     "@types/react": "^19.2.7",
     "@types/react-dom": "^19",
